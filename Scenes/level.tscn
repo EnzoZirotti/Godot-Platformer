@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://6yttky0osg8j"]
 
-[ext_resource type="PackedScene" uid="uid://5sc7ek3ywlrb" path="res://player.tscn" id="1_ckrit"]
+[ext_resource type="PackedScene" uid="uid://5sc7ek3ywlrb" path="res://Player/player.tscn" id="1_ckrit"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_obn61"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -39,6 +39,6 @@ mesh = SubResource("PlaneMesh_bfm0w")
 shape = SubResource("ConcavePolygonShape3D_vu2hf")
 
 [node name="Player" parent="." instance=ExtResource("1_ckrit")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, -2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.63934, -2)
 top_level = true
 linear_damp = 3.0
